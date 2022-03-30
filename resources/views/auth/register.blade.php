@@ -54,7 +54,7 @@
                         </span>
                     @enderror
 
-                    <label for="email">{{ __('Email Address') }}</label>
+                    <label for="email">{{ __('Email') }}</label>
                   </div>
                   <div class="form-floating mb-3">
                     <input type="password" class="form-control @error('password') is-invalid @enderror" id="password" placeholder="Password" name="password" required autocomplete="current-password">
@@ -70,11 +70,11 @@
                   <div class="form-floating mb-3">
                     <input type="password" class="form-control" id="password-confirm" placeholder="Password" name="password_confirmation" required autocomplete="new-password">
 
-                    <label for="password-confirm">{{ __('Confirm Password') }}</label>
+                    <label for="password-confirm">{{ __('Konfirmasi Password') }}</label>
                   </div>
                 
                   <div class="d-grid text-center">
-                    <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2 text-dark " type="submit">{{ __('Register') }}</button>
+                    <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2 text-dark " type="submit">{{ __('Daftar') }}</button>
                     <p>Sudah punya akun?</p>
                     <a href="{{route('login')}}" class="text-primary">Login</a>
                   </div>

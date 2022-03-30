@@ -43,7 +43,7 @@
                         </span>
                     @enderror
 
-                    <label for="email">{{ __('Email Address') }}</label>
+                    <label for="email">{{ __('Email') }}</label>
                   </div>
                   <div class="form-floating mb-3">
                     <input type="password" class="form-control @error('password') is-invalid @enderror" id="password" placeholder="Password" name="password" required autocomplete="current-password">
